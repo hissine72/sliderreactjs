@@ -1,0 +1,144 @@
+
+img {
+  height: 400px;
+  
+ width: 800px;
+  /* right: 280px; */
+  position: absolute;
+  /* z-index: 1; */
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.pic{
+
+  position: relative;
+  width: 400px;
+  margin: 5px auto;
+}
+.slider{
+  border:  2px solid red;
+  position: relative;
+ 
+
+}
+.active{
+  max-width: 100%;
+  opacity: 1;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+}
+.not{
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+.buttons{
+ 
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  /* border: 2px solid firebrick; */
+  
+  
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.increase{
+  background-color: #009688;
+ left: 480px;
+ border: 1px solid #009688;
+ color: white;
+ top: 39px;
+ padding: 3px 5px;
+ cursor: pointer;
+ left:  350px;
+ border-radius: 5px;
+  position: relative;
+
+}
+.decrease{
+ background-color: #009688;
+ border: 1px solid #009688;
+ color: white;
+ padding: 3px 5px;
+ cursor: pointer;
+ border-radius: 5px;
+ left: -040px;
+ bottom: 38px;
+ /* border: 3px solid firebrick; */
+ position: relative;
+ 
+}
+.dis{
+  cursor:no-drop;
+}
+ .counter{
+  position: relative;
+  top: 10px;
+  left: -140px;
+  background-color: black;
+  color: wheat;
+  text-transform: capitalize;
+  z-index: 2;
+  width: 100px;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+} 
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid rebeccapurple; */
+  
+ 
+}
+.card{
+  width: 400px;
+  position: absolute;
+}
+
+.hee{
+  display: flex;
+  list-style: none;
+  /* border: 4px solid rebeccapurple; */
+}
+
+ul{
+  /* display: flex; */
+  list-style: none;
+  /* justify-content: center; */
+  /* border: 3px solid saddlebrown; */
+  /* width: 30px; */
+  /* margin-left: 3px; */
+}
+ul li{
+  cursor: pointer;
+  /* border: 1px solid fuchsia; */
+  /* width: 50px; */
+  width: 20px;
+  padding-left: 7px;
+/* margin: 0 auto; */
+}
+.color{
+
+  background-color: #009688;
+  color: white;
+}
+.no{
+  background-color: #ccc;
+}
